@@ -2,20 +2,20 @@
 
 Svetashov Konstantin
 
-### Contacts
+## Contacts
 1. [VK](https://vk.com/id221961828)
 
-### Personal information
+## Personal information
 I want to work a lot and learn new technologies in IT
 
-### Skills
+## Skills
 * Java
 * SQL
 * JavaScript
 * HTML & CSS
 * Git
 
-### Code examples
+## Code examples
 ```
 function squareDigits(num){
   let res = '';
@@ -41,5 +41,5 @@ function fizzbuzz(n)
 }
 ```
 
-### Level of English
+## Level of English
 English level grade - B1
