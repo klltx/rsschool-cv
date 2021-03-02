@@ -23,7 +23,7 @@ aside {
 }
 
 .image-avatar {
-  filter: drop-shadow(0px 0px 4px black);
+  filter: drop-shadow(0px 0px 8px #292929);
   width: 70%;
   margin-bottom: 30px;
 }
@@ -36,6 +36,7 @@ section {
 article {
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 20px;
 }
 
 header {
@@ -48,20 +49,32 @@ header {
 
 footer {
   height: 100px;
-  background-color: #e4e4e4;
-  display: flex;
-  align-items: center;
-}
-
-footer nav {
-  width: 10%;
+  background-color: #e7e5e5;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+footer p {
+  padding: 30px;
+}
+
+footer nav {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
 footer img {
-  width: 40%;
+  width: 60%;
 }
 
 h1 {
@@ -74,6 +87,12 @@ h1 {
 
 h2 {
   margin-top: 0px;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+h4 {
   font-size: 22px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -81,7 +100,6 @@ h2 {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 p {
@@ -103,7 +121,8 @@ ul {
 
 li {
   margin-top: 10px;
-  font-size: 17px;
+  font-size: 15px;
+  color: #3a4366;
 }
 
 aside h3 {
